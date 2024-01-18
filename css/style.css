@@ -36,7 +36,9 @@ h6 {
     text-wrap: balance;
 }
 
-/* Back to top button */
+/*--------------------------------------------------------------
+  # Back to top button
+  --------------------------------------------------------------*/
 
 .back-to-top {
     position: fixed;
@@ -60,7 +62,9 @@ h6 {
     color: #fff;
 }
 
-/* Prelaoder */
+/*--------------------------------------------------------------
+  # Preload
+  --------------------------------------------------------------*/
 
 #preloader {
     position: fixed;
@@ -186,7 +190,6 @@ h6 {
     text-decoration: underline;
 }
 
-#intro .intro-info .btn-get-started,
 #intro .intro-info .btn-services {
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
@@ -197,18 +200,6 @@ h6 {
     border-radius: 50px;
     transition: 0.5s;
     margin: 0 20px 20px 0;
-    color: #fff;
-}
-
-#intro .intro-info .btn-get-started {
-    background: #004AAD;
-    border: 2px solid #004AAD;
-    color: #fff;
-}
-
-#intro .intro-info .btn-get-started:hover {
-    background: none;
-    border-color: #fff;
     color: #fff;
 }
 
@@ -328,7 +319,9 @@ h6 {
     right: 15px;
 }
 
-/* Mobile Navigation */
+/*--------------------------------------------------------------
+  # Mobile-nav
+  --------------------------------------------------------------*/
 
 .mobile-nav {
     position: fixed;
@@ -434,17 +427,11 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-  # Sections
+  # Section-one
   --------------------------------------------------------------*/
 
 .section-bg {
     background: #fff;
-}
-
-#section-one .section-header h3,
-#section-one .section-header p {
-    color: #004AAD;
-    text-align: center;
 }
 
 #section-one p {
@@ -453,36 +440,18 @@ h6 {
     color: #000;
 }
 
-#section-one .counters {
-    padding-top: 40px;
-}
-
-#section-one .counters span {
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    font-size: 48px;
-    display: block;
-    color: #fff;
-}
-
-#section-one .counters p {
-    padding: 0;
-    margin: 0 0 20px 0;
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    color: #fff;
-}
-
-/* Logos Section
-  --------------------------------*/
+/*--------------------------------------------------------------
+  # Logo section
+  --------------------------------------------------------------*/
 
 #logos-org {
     padding: 60px 0;
     background: #004AAD;
 }
 
-/* Contact Section
-  --------------------------------*/
+/*--------------------------------------------------------------
+  # Contact
+  --------------------------------------------------------------*/
 
 #contact {
     overflow: hidden;
@@ -495,38 +464,6 @@ h6 {
 
 #contact .section-header {
     padding-bottom: 30px;
-}
-
-#contact .contact-about h3 {
-    font-size: 36px;
-    margin: 0 0 10px 0;
-    padding: 0;
-    line-height: 1;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 300;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: #004AAD;
-}
-
-#contact .contact-about p {
-    font-size: 14px;
-    line-height: 24px;
-    font-family: "Montserrat", sans-serif;
-    color: #888;
-}
-
-#contact .info i {
-    font-size: 32px;
-    color: #004AAD;
-    float: left;
-    line-height: 1;
-}
-
-#contact .info p {
-    padding: 0 0 10px 36px;
-    line-height: 28px;
-    font-size: 14px;
 }
 
 /*--------------------------------------------------------------
@@ -620,10 +557,6 @@ h6 {
         margin: auto;
         text-align: center;
     }
-
-    #section-one .card {
-        margin: 0;
-    }
 }
 
 @media (max-width: 768px) {
@@ -632,33 +565,10 @@ h6 {
     }
 }
 
-@media (max-width: 767px) {
-    #intro .intro-info {
-        width: 100%;
-    }
-
-    #intro .intro-info h2 {
-        font-size: 34px;
-        margin-bottom: 30px;
-    }
-
-}
-
-@media (min-width: 765px) {
-    #services .box .box-lg {
-        min-height: 350px;
-    }
-}
-
 @media (max-width: 576px) {
     #services .box {
         padding: 30px 15px;
     }
-
-    #services .icon {
-        display: none;
-    }
-
 }
 
 @media (max-width: 574px) {
