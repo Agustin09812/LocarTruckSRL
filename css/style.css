@@ -441,12 +441,43 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+  # Slider
+  --------------------------------------------------------------*/
+
+
+.patent .patent-slider .swiper-slide img {
+    transition: 0.3s;
+    width: 10rem;
+}
+
+.patent .patent-slider .swiper-slide img:hover {
+    transform: scale(1.5);
+}
+
+.patent .patent-slider .swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+}
+
+.patent .patent-slider .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+
+    border: 1px solid #004AAD;
+}
+
+.patent .patent-slider .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #004AAD;
+}
+
+/*--------------------------------------------------------------
   # Logo section
   --------------------------------------------------------------*/
 
-#logos-org {
+#patent-container {
     padding: 60px 0;
-    background: #004AAD;
+    background: #fff;
 }
 
 /*--------------------------------------------------------------

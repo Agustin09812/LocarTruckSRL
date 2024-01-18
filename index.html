@@ -22,6 +22,7 @@
     <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <!-- Main Stylesheet File -->
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/btn.css">
@@ -80,7 +81,7 @@
         </section>
 
         <section class="container">
-            <article class="row d-flex justify-content-between">
+            <article class="row d-flex justify-content-center">
                 <div class="card shadow rounded m-4" style="width: 18rem;">
                     <img src="./img/gallery/trailer.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -178,29 +179,33 @@
             </article>
         </section>
 
-        <section id="logos-org" class="mt-5">
+        <section id="patent-container" class="patent mt-5">
             <div class="container">
-                <div class="row row-eq-height justify-content-center">
-                    <div class="col-lg-12 mb-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="row text-center">
-                                    <div class="col-sm-6 col-md-4 col-lg-3"><img src="img/logos/cent.png" alt=""></div>
-                                    <div class="col-sm-6 col-md-4 col-lg-3"><img src="img/logos/cnrt.png" alt=""></div>
-                                    <div class="col-sm-6 col-md-4 col-lg-3"><img src="img/logos/economia.png" alt="">
-                                    </div>
-                                    <div class="col-sm-6 col-md-4 col-lg-3"><img src="img/logos/planificacion.png"
-                                            alt=""></div>
-                                    <div class="col-sm-6 col-md-4 col-lg-4"><img src="img/logos/presidencia.png" alt="">
-                                    </div>
-                                    <div class="col-sm-6 col-md-4 col-lg-4"><img src="img/logos/seguvial.png" alt="">
-                                    </div>
-                                    <div class="col-sm-6 col-md-4 col-lg-4"><img src="img/logos/transporte.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
+                <div class="patent-slider swiper">
+                    <div class="swiper-wrapper align-items-center">
+                        <div class="swiper-slide"><img src="./img/logos/cent.png" class="img-fluid" alt=""
+                                loading="lazy">
+                        </div>
+                        <div class="swiper-slide"><img src="./img/logos/presidencia.png" class="img-fluid" alt=""
+                                loading="lazy">
+                        </div>
+                        <div class="swiper-slide"><img src="./img/logos/economia.png" class="img-fluid" alt=""
+                                loading="lazy">
+                        </div>
+                        <div class="swiper-slide"><img src="./img/logos/planificacion.png" class="img-fluid" alt=""
+                                loading="lazy">
+                        </div>
+                        <div class="swiper-slide"><img src="./img/logos/cnrt.png" class="img-fluid" alt=""
+                                loading="lazy">
+                        </div>
+                        <div class="swiper-slide"><img src="./img/logos/seguvial.png" class="img-fluid" alt=""
+                                loading="lazy">
+                        </div>
+                        <div class="swiper-slide"><img src="./img/logos/transporte.png" class="img-fluid" alt=""
+                                loading="lazy">
                         </div>
                     </div>
+                    <div class="swiper-pagination mt-5"></div>
                 </div>
             </div>
         </section>
@@ -244,14 +249,13 @@
                                 <div class="text-center">
                                     <img src="./img/Logo-negro.png" class="rounded" style="width: 15rem;" alt="...">
                                 </div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ipsam cupiditate,
-                                    adipisci officiis nam eveniet consectetur quia culpa asperiores nemo sint provident
-                                    ea enim, neque doloribus inventore quis sit corrupti!. Lorem ipsum dolor sit amet
-                                    consectetur adipisicing elit. Ratione voluptates earum voluptas quasi iste molestias
-                                    aliquid reprehenderit. Fugiat exercitationem ipsam possimus quas, tempore obcaecati
-                                    modi pariatur ea dicta amet laboriosam?. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Dolore sapiente tempore ducimus perferendis quasi, mollitia eaque
-                                    et illo ad totam, incidunt explicabo beatae ipsum optio ex aut hic? Quam, ab!</p>
+                                <p>Locar Truck S.R.L Taller de certificaciones oficiales de la República Argentina,
+                                    garantizamos la conformidad de tu vehículo con los estándares y regulaciones
+                                    vigentes. Nuestro equipo de expertos altamente capacitados asegura la obtención de
+                                    las certificaciones necesarias, proporcionando tranquilidad y seguridad a los
+                                    propietarios de vehículos en todo el país. Confía en nosotros para un servicio
+                                    integral, donde calidad y legalidad se combinan para brindar una experiencia
+                                    confiable.</p>
                             </div>
                         </div>
                     </div>
@@ -290,6 +294,7 @@
     <script src="lib/mobile-nav/mobile-nav.js"></script>
     <script src="lib/wow/wow.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
 
