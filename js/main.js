@@ -1,4 +1,4 @@
-(function ($) {
+document.addEventListener('DOMContentLoaded', () => {
     "use strict";
 
     // Back to top button
@@ -13,8 +13,6 @@
         $('html, body').animate({ scrollTop: 0 }, 500, 'easeInOutExpo');
         return false;
     });
-
-
 
     // Smooth scroll for the navigation and links with .scrollto classes
     $('.main-nav a, .mobile-nav a, .scrollto').on('click', function () {
@@ -69,5 +67,5 @@
         });
     });
 
-})(jQuery);
+});
 
