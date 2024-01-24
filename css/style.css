@@ -588,6 +588,10 @@ h6 {
         margin: auto;
         text-align: center;
     }
+
+    #intro .intro-info h2 {
+        font-size: 40px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -605,5 +609,11 @@ h6 {
 @media (max-width: 574px) {
     #intro {
         padding: 100px 0 20px 0;
+    }
+}
+
+@media (max-width: 375px) {
+    #intro .intro-info h2 {
+        font-size: 30px;
     }
 }
