@@ -101,27 +101,27 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     })
 
-    function updateButtonWidth() {
-        const button1 = document.getElementById('button1')
-        const button2 = document.getElementById('button2')
+    // function updateButtonWidth() {
+    //     const button1 = document.getElementById('button1')
+    //     const button2 = document.getElementById('button2')
 
-        if (window.innerWidth <= 447) {
-            button1.classList.remove('w-50')
-            button1.classList.add('w-100')
+    //     if (window.innerWidth <= 447) {
+    //         button1.classList.remove('w-50')
+    //         button1.classList.add('w-100')
 
-            button2.classList.remove('w-50')
-            button2.classList.add('w-100')
-        } else {
-            button1.classList.remove('w-100')
-            button1.classList.add('w-50')
+    //         button2.classList.remove('w-50')
+    //         button2.classList.add('w-100')
+    //     } else {
+    //         button1.classList.remove('w-100')
+    //         button1.classList.add('w-50')
 
-            button2.classList.remove('w-100')
-            button2.classList.add('w-50')
-        }
-    }
+    //         button2.classList.remove('w-100')
+    //         button2.classList.add('w-50')
+    //     }
+    // }
 
-    window.addEventListener('load', updateButtonWidth)
-    window.addEventListener('resize', updateButtonWidth)
+    // window.addEventListener('load', updateButtonWidth)
+    // window.addEventListener('resize', updateButtonWidth)
 
 })
 
