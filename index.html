@@ -139,38 +139,41 @@
                 </div>
             </article>
             <div class="text-center mt-5">
-                <p class="d-inline-flex gap-1">
-                    <button class="btn btn-danger btn-lg shadow" type="button" onclick="toggleCollapse()">
-                        Ver Disposiciones Legales
-                    </button>
-                </p>
-                <div class="collapse shadow-lg mx-auto" id="myCollapse" style="max-width: 620px;">
-                    <div class="card card-body border-0">
-                        <div class="d-flex justify-content-center flex-column align-items-center">
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne" style="background-color: #dc3545;">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link"
+                                    style="color: #fff; list-style-type: none; width: 100%; text-align: left;"
+                                    data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                    aria-controls="collapseOne">
+                                    <span
+                                        style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+                                        Ver Disposiciones Legales
+                                        <i class="fa fa-chevron-down"></i>
+                                    </span>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                            data-parent="#accordion">
+                            <div class="card-body">
+                                <a href="https://www.argentina.gob.ar/normativa/nacional/disposici%C3%B3n-25-2009-162246"
+                                    target="_blank" class="mb-4 mt-2"><button id="button1" type="button"
+                                        class="btn btn-info shadow mb-2"
+                                        style="font-family: 'Montserrat', sans-serif; font-weight: 500;">Disposición
+                                        25/2009</button></a>
 
-                            <a href="https://www.argentina.gob.ar/normativa/nacional/disposici%C3%B3n-25-2009-162246"
-                                target="_blank" class="mb-4 mt-2"><button id="button1" type="button"
-                                    class="btn btn-info shadow mb-2"
-                                    style="font-family: 'Montserrat', sans-serif; font-weight: 500;">Disposición
-                                    25/2009</button></a>
-
-                            <a href="https://autotransportetv.com.ar/homologaciones-y-talleres-nuevas-normativas/"
-                                target="_blank" class="mb-2"><button id="button2" type="button"
-                                    class="btn btn-info shadow mb-2"
-                                    style="font-family: 'Montserrat', sans-serif; font-weight: 500;">Nuevas
-                                    Normativas</button></a>
-
+                                <a href="https://autotransportetv.com.ar/homologaciones-y-talleres-nuevas-normativas/"
+                                    target="_blank" class="mb-2"><button id="button2" type="button"
+                                        class="btn btn-info shadow mb-2"
+                                        style="font-family: 'Montserrat', sans-serif; font-weight: 500;">Nuevas
+                                        Normativas</button></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- <div class="text-center mt-5 pb-5">
-                <a href="https://www.argentina.gob.ar/normativa/nacional/disposici%C3%B3n-25-2009-162246"
-                    target="_blank"><button type="button" class="btn btn-danger btn-lg shadow"
-                        style="font-family: 'Montserrat', sans-serif; font-weight: 500;">Click aquí para ver
-                        Disposiciones
-                        Legales</button></a>
-            </div> -->
         </section>
 
         <section id="section-two">
