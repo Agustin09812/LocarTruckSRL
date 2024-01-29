@@ -101,6 +101,22 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     })
 
+    function adjustButtonWidth() {
+        var button = document.getElementById("rtobutton")
+
+        if (window.innerWidth <= 425) {
+            button.classList.remove("w-50")
+            button.classList.add("w-100")
+        } else {
+            button.classList.remove("w-100")
+            button.classList.add("w-50")
+        }
+    }
+
+    adjustButtonWidth()
+
+    window.addEventListener("resize", adjustButtonWidth)
+
 })
 
 function toggleCollapse() {
